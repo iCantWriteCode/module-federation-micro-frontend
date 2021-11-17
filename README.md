@@ -7,7 +7,7 @@
 2. cd module-federation-shell
 3. npm i
 4. npm run start:shell 
-5. start:mfe1
+5. npm run start:mfe1
 6. Enjoy!
 
 Content
