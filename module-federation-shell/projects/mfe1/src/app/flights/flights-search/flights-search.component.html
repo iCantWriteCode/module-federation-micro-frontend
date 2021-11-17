@@ -34,8 +34,14 @@
 </style>
 
 <div id="container">
-  Auth Lib: <div>{{user}}</div>
-  Shared Component: <lib-other></lib-other>
+  <h3>Getting data from Auth Lib directly</h3>  <div>{{user}}</div>
+  <hr>
+  <h3>Shared Lib that shares auth lib</h3> <lib-shared-lib></lib-shared-lib>
+  <hr>
+  <h3>Shared Component form shared lib:</h3>
+  <lib-other></lib-other>
+
+  <hr>
     <div>
         <img src="../../../assets/angular.png" width="50">
     </div>
